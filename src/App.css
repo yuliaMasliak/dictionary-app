@@ -4,4 +4,8 @@
 .App-header {
   align-items: center;
   justify-content: center;
+  margin: 60px auto;
+}
+footer {
+  margin: 60px auto;
 }

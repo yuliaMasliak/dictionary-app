@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -7,6 +8,13 @@ function App() {
       <header className="App-header">
           Learn React
       </header>
+      <main>
+<Dictionary />
+      </main>
+      <footer>
+        This project is open-sourced on GitHub
+      </footer>
+
     </div>
   );
 }
