@@ -1,9 +1,14 @@
 import React, { useState } from "react";
-
+import axios from "axios";
 
 
 export default function Dictionary() {
 let [keyword, setKeyword] = useState("");
+
+
+function handleResponse(response) {
+    console.log(response.data);
+}
 
 function HandleKyewordChange(event){
     event.preventDefault();
@@ -12,7 +17,8 @@ function HandleKyewordChange(event){
 
     function search(event){
     event.preventDefault();
-    alert(`Searching for ${keyword}`);
+    let apiUrl=`https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+axios.get(apiUrl).then(handleResponse);
 }
 
     return(
@@ -20,6 +26,7 @@ function HandleKyewordChange(event){
             <form onSubmit={search}>
                 <input type="search" onChange={HandleKyewordChange}/>
             </form>
+            <div>{keyword}</div>
         </div>
     )
 }

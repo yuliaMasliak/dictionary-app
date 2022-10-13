@@ -14,7 +14,6 @@ function App() {
       <footer>
         This project is open-sourced on GitHub
       </footer>
-
     </div>
   );
 }
