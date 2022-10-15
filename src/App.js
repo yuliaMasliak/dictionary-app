@@ -5,7 +5,7 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
           Learn React
       </header>
       <main>

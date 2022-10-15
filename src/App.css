@@ -1,10 +1,6 @@
 .App {
-  text-align: center;
-}
-.App-header {
-  align-items: center;
-  justify-content: center;
-  margin: 60px auto;
+  text-align: left;
+  margin: 60px;
 }
 footer {
   margin: 60px auto;
