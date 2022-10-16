@@ -2,9 +2,11 @@ import React from "react";
 import './App.css';
 import Dictionary from "./Dictionary";
 import logo from './logo.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
+
     <div className="Project">
     <header>
           <img src={logo} alt="logo" className="logo" width="100"></img><span className="header-title">Dictionary App</span>
