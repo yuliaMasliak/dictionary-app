@@ -9,7 +9,7 @@ function App() {
           Learn React
       </header>
       <main>
-<Dictionary />
+<Dictionary defaultKeyword="book"/>
       </main>
       <footer>
         This project is open-sourced on GitHub
