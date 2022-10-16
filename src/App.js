@@ -1,20 +1,22 @@
 import React from "react";
 import './App.css';
 import Dictionary from "./Dictionary";
+import logo from './logo.png';
 
 function App() {
   return (
-    <div className="App">
-      <header>
-          Learn React
+    <div className="Project">
+    <header>
+          <img src={logo} alt="logo" className="logo" width="100"></img><span className="header-title">Dictionary App</span>
       </header>
+    <div className="App">
       <main>
-<Dictionary defaultKeyword="book"/>
+<Dictionary />
       </main>
       <footer>
-        This project is open-sourced on GitHub
+      This project was coded by Yulia Masliak and is open-sourced on GitHub and hosted on Netlify
       </footer>
-    </div>
+    </div></div>
   );
 }
 

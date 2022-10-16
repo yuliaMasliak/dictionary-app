@@ -1,7 +1,101 @@
+body {
+background-color: #F9F7FE;
+font-family: "Cerebri-Sans", Helvetica, Arial, sans-serif;
+}
+header {
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 80px;
+  font-size: 44px;
+  font-weight: 700;
+  color: #3b3d41;
+
+}
+.header-title {
+  vertical-align: text-top;
+}
+
 .App {
   text-align: left;
-  margin: 60px;
+  margin: 0px auto;
+  max-width: 800px;
+  padding: 60px;
+}
+.Results h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000;
+}
+section {
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+    border-radius: 8px;
+    background: #fff;
+    margin-top: 10px;
+    padding: 20px 40px;
+}
+.Meaning hr {
+  background-color: rgb(224, 222, 222);
+  height: 1px;
+  border: none;
+}
+.Meaning h3 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.Example {
+  font-style: italic;
+  font-size: 14px;
+}
+.Phonetic {
+  margin-bottom: 25px;
+  }
+  .transcript {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(117, 117, 117);
+  }
+.Phonetic a {
+  color: #6c63ff;
+  font-weight: 400;
+  margin-right: 15px;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 8px 18px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.Dictionary label {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 29px;}
+.Dictionary .search-input {
+  display: block;
+  height: 64px;
+  color: rgb(85, 84, 84);
+  font-size: 18px;
+  line-height: 21px;
+  padding: 22px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+}
+.Synonyms{
+  margin-left: 0px;
+  margin-bottom: 25px;
+  opacity: 0.7;
+  font-size: 15px;
 }
 footer {
-  margin: 60px auto;
+  margin: 15px auto;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(117, 117, 117);
 }

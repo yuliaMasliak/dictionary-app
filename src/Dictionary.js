@@ -4,13 +4,12 @@ import Result from  "./Result";
 
 
 export default function Dictionary(props) {
-let [keyword, setKeyword] = useState(props.defaultKeyword);
+let [keyword, setKeyword] = useState("color");
 let [result, setResult] = useState("");
 let [loaded, setLoaded] = useState(false);
 
 
 function handleResponse(response) {
-    console.log(response.data);
        setResult(response.data[0]);
 }
 
@@ -35,9 +34,12 @@ function load() {
 if (loaded) {
     return(
         <div className="Dictionary">
+        <section>
             <form onSubmit={handleSubmit}>
-                <input type="search" onChange={HandleKyewordChange} defaultValue={props.defaultKeyword}/>
+            <label>Enter a word to search</label>
+                <input type="search" className="search-input" onChange={HandleKyewordChange} defaultValue="color"/>
             </form>
+            </section>
             <Result results={result}/>
         </div>
     )} else {
