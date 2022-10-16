@@ -6,7 +6,7 @@ import Photos from "./Photos";
 
 
 export default function Dictionary(props) {
-let [keyword, setKeyword] = useState("color");
+let [keyword, setKeyword] = useState("create");
 let [result, setResult] = useState("");
 let [loaded, setLoaded] = useState(false);
 let [photos, setPhotos] = useState(null);
@@ -49,7 +49,7 @@ if (loaded) {
         <section>
             <form onSubmit={handleSubmit}>
             <label>Enter a word to search</label>
-                <input type="search" className="search-input" onChange={HandleKyewordChange} defaultValue="color"/>
+                <input type="search" className="search-input" onChange={HandleKyewordChange} defaultValue="create"/>
             </form>
             </section>
             <Result results={result}/>

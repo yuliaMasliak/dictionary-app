@@ -16,7 +16,7 @@ function App() {
 <Dictionary />
       </main>
       <footer>
-      This project was coded by <a href="https://github.com/yuliaMasliak" target="_blank">Yulia Masliak</a> and is open-sourced on <a href="https://github.com/yuliaMasliak/dictionary-app" targrt="_blank">GitHub</a> and hosted on <a href="https://fastidious-cannoli-88e429.netlify.app/" target="_blank">Netlify</a>
+      This project was coded by <a href="https://github.com/yuliaMasliak" target="_blank" rel="noreferrer">Yulia Masliak</a> and is open-sourced on <a href="https://github.com/yuliaMasliak/dictionary-app" targrt="_blank" rel="noreferrer">GitHub</a> and hosted on <a href="https://fastidious-cannoli-88e429.netlify.app/" target="_blank" rel="noreferrer">Netlify</a>
       </footer>
     </div></div>
   );

@@ -1,7 +1,3 @@
-body {
-background:#422c77;
-font-family: "Cerebri-Sans", Helvetica, Arial, sans-serif;
-}
 header {
   text-align: center;
   margin: 0px auto;
@@ -20,6 +16,7 @@ header {
   margin: 0px auto;
   max-width: 800px;
   padding: 60px;
+  font-family: "Cerebri-Sans", Helvetica, Arial, sans-serif;
 }
 .Results h2 {
   font-style: normal;
@@ -36,8 +33,8 @@ section {
     padding: 20px 40px;
 }
 .Meaning hr {
-  background-color: rgb(224, 222, 222);
-  height: 1px;
+  background-color: rgb(175, 171, 171);
+  height: 2px;
   border: none;
 }
 .Meaning h3 {
